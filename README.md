@@ -3,22 +3,32 @@ This is an online marketplace project built with React.js for the front-end and 
 
 ---------------------------
 
-## Features
-The project includes the following features:
+## Installation
+To run this project, you will need to have Node.js and Java installed on your machine.
 
-- User authentication: Users can create accounts, log in, and log out of the application.
-- User profiles: Users can create profiles with their personal information, profile picture, and other details.
-- Posting content: Users can create posts with text, images, and videos.
-- News feed: Users can view posts from other users they follow in their news feed.
-- Following other users: Users can follow other users and see their posts in their news feed.
-- Commenting on posts: Users can comment on posts and view comments from other users.
+1. Clone this repository to your local machine
+2. Navigate to the project directory in your terminal or command prompt
+3. Install the required dependencies by running npm install in the root directory
+4. Start the server by running java -jar server.jar in the server directory
+5. Start the client by running npm start in the root directory
 
 -------------------------------
 
-## Technologies Used
-The project is built using the following technologies:
+## Usage
+Once you have the project running, you can use the following features:
 
-- React.js: A JavaScript library for building user interfaces.
-- Java: A programming language used for building the back-end of the application.
-- Spring Boot: A framework used for building the RESTful API.
-- PostgreSQL: A database used for storing user and post data.
+- User authentication: Sign up or log in to an existing account
+- Product search: Search for products by name, category, or keyword
+- Shopping cart: Add products to your cart and view your current cart items
+- Checkout: Enter your shipping and payment information to complete your purchase
+- Payment processing: Use a test Stripe account to process payments (you will need to provide your own test API keys)
+
+--------------------------------
+
+## Contributing
+Contributions to this project are welcome! If you have any bug fixes, feature requests, or other improvements, please submit a pull request.
+
+--------------------------------
+
+## License
+This project is licensed under the `MIT License` - see the `LICENSE` file for details.
